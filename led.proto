@@ -1,0 +1,11 @@
+
+syntax = "proto2" ;
+
+message led {
+    required int32 led_green = 1;
+    required int32 led_blue  = 2;
+    required int32 led_red   = 3;
+    required int32 led_yellow  = 4;
+}
+
+
