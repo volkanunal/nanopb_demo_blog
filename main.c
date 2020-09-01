@@ -33,6 +33,7 @@ static void set_led_state(led* self, int l_blue, int l_green, int l_red, int l_y
 
 int main(int argc, char* argv[])
 {
+    //Encoding
     {
         
         led led_state = led_init_zero;
@@ -52,6 +53,7 @@ int main(int argc, char* argv[])
         }
     }
 
+    //Decoding
     {
 
         led led_state = led_init_zero;      
